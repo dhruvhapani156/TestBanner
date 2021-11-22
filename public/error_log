@@ -1,0 +1,8 @@
+[18-Jun-2021 12:22:58 UTC] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php:788
+Stack trace:
+#0 /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php(788): ReflectionClass->__construct('translator')
+#1 /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('translator')
+#2 /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('translator', Array)
+#4 /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/evepar/public_html/backend/ve in /home/evepar/public_html/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 788
